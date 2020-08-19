@@ -1,11 +1,13 @@
 language: python
 python:
   - '3.7'
+script:
+  - echo foo
 deploy:
   provider: pypi
-  user: $PYPI_USERNAME
+  user: __token__
+  password: $PYPI_TOKEN
   server: $PYPI_SERVER
-  password:
-    secure: $PYPI_PASSWORD
+  distributions: "sdist bdist_wheel" # Your distributions here
   on:
     branch: testing

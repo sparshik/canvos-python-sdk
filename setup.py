@@ -40,7 +40,7 @@ setup(
 	description="Python SDK for Canvos KYC API",
 	long_description=readme + '\n\n' + changelog,
 	long_description_content_type="text/markdown",
-	url="https://github.com/sparshik/kyc-sdk-python",
+	url="https://github.com/sparshik/canvos-python-sdk",
 	license='MIT License',
 	author='Sparshik Technologies',
 	author_email='support@sparshik.com',

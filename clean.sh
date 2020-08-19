@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf build dist sparshik_kyc.egg-info
+rm -rf build dist canvos_kyc.egg-info

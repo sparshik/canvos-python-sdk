@@ -8,4 +8,4 @@ deploy:
   password:
     secure: $PYPI_PASSWORD
   on:
-    branch: master
+    branch: testing

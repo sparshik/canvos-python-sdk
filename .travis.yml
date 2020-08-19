@@ -1,0 +1,11 @@
+language: python
+python:
+  - '3.7'
+deploy:
+  provider: pypi
+  user: $PYPI_USERNAME
+  server: $PYPI_SERVER
+  password:
+    secure: $PYPI_PASSWORD
+  on:
+    branch: master

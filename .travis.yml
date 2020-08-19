@@ -2,7 +2,7 @@ language: python
 python:
   - '3.7'
 script:
-  - echo foo
+  - echo foot
 deploy:
   provider: pypi
   user: __token__
